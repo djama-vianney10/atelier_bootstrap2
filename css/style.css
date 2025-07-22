@@ -200,6 +200,39 @@ i:hover{
   max-width: 900px;
 }
 
+.paragraph{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.espace-interieur{
+    padding: 30px 20px;
+}
+
+.input-champ{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid var(--coach-gray-300);
+    width: 100%;
+}
+
+.input-champ:focus{
+   outline-color: var(--coach-form-invalid-color);
+   box-shadow: 0 0  10px var(--coach-form-invalid-color);
+}
+
+.bouton-couleur{
+    background-color: var(--coach-primary);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bouton-couleur:hover{
+    background-color: var(--coach-form-invalid-color);
+    color: #fff;
+}
+
 @media (max-width: 767px) {
     .video {
          margin-top: -150px;
